@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(\\(Get-Command python -ErrorAction SilentlyContinue\\).Source; \\(Get-Command python3 -ErrorAction SilentlyContinue\\).Source; \\(Get-Command node -ErrorAction SilentlyContinue\\).Source)",
+      "mcp__Claude_Preview__preview_start",
+      "PowerShell(where.exe python 2>$null; where.exe python3 2>$null; where.exe py 2>$null; $env:PATH -split ';' | Where-Object { Test-Path \"$_\\\\python.exe\" })",
+      "Bash(which node *)",
+      "Bash(find /c/Users/xiyan.fu/AppData/Local -name \"python.exe\" -maxdepth 6 2>/dev/null | grep -v WindowsApps | head -5; find /c/ProgramData -name \"python.exe\" -maxdepth 6 2>/dev/null | head -3)",
+      "Bash(git --version)",
+      "Bash(gh --version)"
+    ]
+  }
+}

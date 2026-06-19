@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Xiyan Fu — NLP researcher. Summarization, compositional generalization, and LLM evaluation.">
+  <title>Xiyan Fu — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css?v=13">
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">
+    <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">☀</span>
+    <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">☾</span>
+    <span class="theme-toggle__label">Toggle color theme</span>
+  </button>
+
+  <div class="page-wrapper">
+    <div class="page">
+      <aside class="sidebar">
+        <div class="sidebar__inner">
+          <figure class="profile">
+            <img
+              class="profile__photo"
+              src="assets/img/profile.jpg?v=1"
+              alt="Portrait of Xiyan Fu"
+              width="400"
+              height="400"
+              loading="eager"
+            >
+            <figcaption>
+              <h1 class="profile__name">Xiyan Fu</h1>
+            </figcaption>
+          </figure>
+
+          <nav class="sidebar__nav" aria-label="Links">
+            <ul class="contact-list">
+              <li>
+                <a href="mailto:xiyan.fu@ntu.edu.sg">
+                  <span class="contact-list__icon" aria-hidden="true">✉</span>
+                  xiyan.fu@ntu.edu.sg
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/xiyan-fu-47775521b/?locale=en" target="_blank" rel="noopener noreferrer">
+                  <span class="contact-list__icon" aria-hidden="true">in</span>
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://scholar.google.com/citations?user=q1glETQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+                  <span class="contact-list__icon" aria-hidden="true">🎓</span>
+                  Google Scholar
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+
+      <main id="main-content" class="main">
+        <header class="hero">
+          <h2 class="hero__title">About Me</h2>
+          <p class="hero__lead">
+            I am currently a Research Fellow at Nanyang Technological University, Singapore, working with <a href="https://dr.ntu.edu.sg/entities/person/Wei-Lu">Prof. Wei Lu</a>. I obtained my Ph.D degree in Heidelberg University, Germany, supervised by <a href="https://www.cl.uni-heidelberg.de/nlpgroup/person/frank">Prof. Dr. Anette Frank</a>. Prior to this, I received my M.Sc. and B.Eng. from Nankai University, China, supervised by <a href="https://scholar.google.com/citations?user=u5LzNHcAAAAJ">Prof. Zhenglu Yang</a>.
+          </p>
+          <p>
+            My research focuses on NLP and LLMs, with an emphasis on <strong>Evaluation, Reasoning, and Generalization</strong>. I am also interested in self-evolving LLMs, agentic systems, and the intersection of cognitive science and AI. Feel free to reach out if you'd like to discuss research ideas or just say hi : )
+          </p>
+        </header>
+
+        <section class="section" id="publications">
+          <h2 class="section__title">Selected Publications<a class="section__title-link" href="https://scholar.google.com/citations?user=q1glETQAAAAJ&hl=en" target="_blank" rel="noopener">Full list on Google Scholar →</a></h2>
+
+          <h3 class="subsection__title">Evaluation</h3>
+          <ul class="pub-list pub-list--compact">
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[arXiv 2026]</span> <a href="https://arxiv.org/abs/2606.10528" target="_blank" rel="noopener">Representation-Aware Advantage Estimation: Your Reward Model Provides More Than A Scalar Output</a></span>
+              <span class="pub-item__authors">G Li<sup>*</sup>, <b>Xiyan Fu</b><sup>*</sup>, Y Guo</span>
+            </li>
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[arXiv 2026]</span> <a href="https://arxiv.org/abs/2606.08092" target="_blank" rel="noopener">When Languages Disagree: Self-Evolving Multilingual LLM Judges</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Wei Lu</span>
+            </li>
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[EMNLP Findings 2025]</span> <a href="https://aclanthology.org/2025.findings-emnlp.587/" target="_blank" rel="noopener">How Reliable is Multilingual LLM-as-a-Judge?</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Wei Liu</span>
+            </li>
+          </ul>
+
+          <h3 class="subsection__title">Generalization & Reasoning</h3>
+          <ul class="pub-list pub-list--compact">
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[arXiv 2026]</span> <a href="https://arxiv.org/abs/2605.04920" target="_blank" rel="noopener">Reinforcement Learning for Compositional Generalization with Outcome-Level Optimization</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Wei Liu</span>
+            </li>
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[TACL 2024]</span> <a href="https://aclanthology.org/2024.tacl-1.51/" target="_blank" rel="noopener">Exploring Continual Learning of Compositional Generalization in NLI</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Anette Frank</span>
+            </li>
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[*SEM 2024]</span> <a href="https://aclanthology.org/2024.starsem-1.31/" target="_blank" rel="noopener">Compositional Structured Explanation Generation with Dynamic Modularized Reasoning</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Anette Frank</span>
+            </li>
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[EMNLP Findings 2024]</span> <a href="https://aclanthology.org/2024.findings-emnlp.492/" target="_blank" rel="noopener">The Mystery of Compositional Generalization in Graph-based Generative Commonsense Reasoning</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Anette Frank</span>
+            </li>
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[ACL Findings 2023]</span> <a href="https://aclanthology.org/2023.findings-acl.252/" target="_blank" rel="noopener">SETI: Systematicity Evaluation of Textual Inference</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Anette Frank</span>
+            </li>
+          </ul>
+
+          <h3 class="subsection__title">Summarization</h3>
+          <ul class="pub-list pub-list--compact">
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[NAACL 2021]</span> <a href="https://aclanthology.org/2021.naacl-main.473/" target="_blank" rel="noopener">MM-AVS: A Full-Scale Dataset for Multi-modal Summarization</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Jun Wang, Zhenglu Yang</span>
+            </li>
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[ACL 2021]</span> <a href="https://aclanthology.org/2021.acl-long.471/" target="_blank" rel="noopener">RepSum: Unsupervised Dialogue Summarization based on Replacement Strategy</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Yating Zhang, Tianyi Wang, Xiaozhong Liu, Changlong Sun, Zhenglu Yang</span>
+            </li>
+            <li class="pub-item">
+              <span class="pub-item__title"><span class="pub-venue">[AAAI 2020]</span> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/6277" target="_blank" rel="noopener">Document Summarization with VHTM: Variational Hierarchical Topic-Aware Mechanism</a></span>
+              <span class="pub-item__authors"><b>Xiyan Fu</b>, Jun Wang, Jing Zhang, Jun Wei, Zhenglu Yang</span>
+            </li>
+          </ul>
+
+        </section>
+
+        <section class="section" id="experience">
+          <h2 class="section__title">Experience</h2>
+          <ul class="timeline">
+            <li>
+              <strong>Tencent</strong> (Project Up)
+              <span class="timeline__date">2025</span>
+              <span class="timeline__detail">Topic: Post-training, Reinforcement Learning</span>
+            </li>
+            <li>
+              <strong>Alibaba</strong> (DAMO Academy)
+              <span class="timeline__date">2020</span>
+              <span class="timeline__detail">Topic: Unsupervised Summarization</span>
+            </li>
+            <li>
+              <strong>RIKEN</strong> (Brain Simulation)
+              <span class="timeline__date">2019</span>
+              <span class="timeline__detail">Topic: Biologically-inspired Spiking Neural Network for Language Modeling</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="service">
+          <h2 class="section__title">Service</h2>
+          <ul class="service-list">
+            <li><strong>Program Chair:</strong> <a href="https://sites.google.com/view/acl-srw2024/home" target="_blank" rel="noopener">ACL 2024 Student Research Workshop</a></li>
+            <li><strong>Reviewer:</strong> ARR, ACL, EMNLP, NAACL</li>
+            <li><strong>Volunteer:</strong> EACL 2024</li>
+          </ul>
+        </section>
+
+        <footer class="site-footer">
+          <p>© <span id="year"></span> Xiyan Fu.</p>
+          <p class="site-footer__credit">
+            Layout inspired by
+            <a href="https://github.com/academicpages/academicpages.github.io" target="_blank" rel="noopener">AcademicPages</a>.
+          </p>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <script src="assets/js/theme.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

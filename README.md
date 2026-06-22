@@ -1,7 +1,5 @@
 # Xiyan Fu — Personal Academic Website
 
-A static academic homepage inspired by [Wei Tao's site](https://itaowe.com/), built with plain HTML/CSS/JS (no build step).
-
 ## Local preview
 
 Open `index.html` in a browser, or serve the folder:
